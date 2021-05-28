@@ -1,4 +1,4 @@
-package com.example.goodday;
+package com.example.goodday.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
