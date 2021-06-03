@@ -1,4 +1,4 @@
-package com.example.goodday.conroller;
+package com.example.goodday.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

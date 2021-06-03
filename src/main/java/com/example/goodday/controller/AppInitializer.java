@@ -1,4 +1,4 @@
-package com.example.goodday.conroller;
+package com.example.goodday.controller;
 
 import com.example.goodday.config.AppConfig;
 import org.springframework.web.WebApplicationInitializer;

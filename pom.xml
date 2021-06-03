@@ -15,19 +15,19 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <propertie>
-            <java.version>11</java.version>
-        </propertie>
-        <propertie>
-            <maven.compiler.source>1.8</maven.compiler.source>
+        <java.version>11</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
             <maven.compiler.target>1.8</maven.compiler.target>
             <spring-framework.version>5.1.9.RELEASE
             </spring-framework.version>
             <failOnMissingWebXml>false</failOnMissingWebXml>
-        </propertie>
     </properties>
 
     <dependencies>
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -69,9 +69,9 @@
             <version>1.2</version>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.7</version>
         </dependency>
     </dependencies>
 
@@ -80,6 +80,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
                 <configuration>
                     <excludes>
                         <exclude>
@@ -91,5 +92,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
