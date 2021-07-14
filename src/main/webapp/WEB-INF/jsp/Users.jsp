@@ -1,15 +1,15 @@
-<%@page import="com.example.goodday.controller.MockUserController"%>
-<html>
+<%--<%@page import="com.example.goodday.controller.MockUserController"%>--%>
+<%--<html>--%>
 
-<head>
+<%--<head>--%>
 
-</head>
+<%--</head>--%>
 
-<body>
+<%--<body>--%>
 
-text: ${text}
+<%--text: ${text}--%>
 
 
-</body>
+<%--</body>--%>
 
-</html>
+<%--</html>--%>
